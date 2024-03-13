@@ -59,7 +59,7 @@ To significantly improves the readability i changed the whole import element to 
 This cleans up the space and gives better readability
 
 ```javascript
-import { Skeleton as S } from '@/components/ui/skeleton';
+import { Skeleton as S } from '@/components/ui/skeleton'; // Used in page by 12-15 times
 
 From :
     <Skeleton className="w-[50px] h-[10px]" />
