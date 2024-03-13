@@ -74,6 +74,12 @@ To :
 I maked some changes in client side to improve user experience like that o go back button is not working so i changed that to navigate it to the home.
 ```javascript
 From :
+    <Link>
+        <FaArrowLeft>
+        <p>Go back</p>
+  </Link>
+
+To :
     <Link to='/'>
             <FaArrowLeft />
             <p>Go back</p>
